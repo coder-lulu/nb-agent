@@ -35,7 +35,7 @@ jobs:
           go install github.com/leonelquinteros/gotext/cli/xgotext@latest
       - name: Generate pot files
         run: |
-          ~/go/bin/xgotext -default backend -pkg-tree ./cmd/ace -out ./pkg/embed/locales
+          ~/go/bin/xgotext -default backend -pkg-tree ./cmd/nb -out ./pkg/embed/locales
           cd web && pnpm run gettext:extract
       - uses: stefanzweifel/git-auto-commit-action@v6
         name: Commit changes

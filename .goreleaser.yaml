@@ -3,7 +3,7 @@ project_name: nb-agent
 
 builds:
   - id: ace
-    main: ./cmd/ace
+    main: ./cmd/nb
     binary: nb-agent
     env:
       - CGO_ENABLED=0

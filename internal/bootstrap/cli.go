@@ -30,13 +30,12 @@ func NewCli(t *gotext.Locale, cmd *route.Cli) *cli.Command {
 	cli.SubcommandHelpTemplate = strings.ReplaceAll(cli.SubcommandHelpTemplate, "COMMANDS", t.Get("COMMANDS"))
 	cli.SubcommandHelpTemplate = strings.ReplaceAll(cli.SubcommandHelpTemplate, "OPTIONS", t.Get("OPTIONS"))
 
-	cli.RootCommandHelpTemplate += "\n" + t.Get("Website：https://acepanel.net")
-	cli.RootCommandHelpTemplate += "\n" + t.Get("Forum：https://tom.moe")
-	cli.RootCommandHelpTemplate += "\n" + t.Get("QQ Group：12370907") + "\n"
+	cli.RootCommandHelpTemplate += "\n" + t.Get("Project：https://github.com/coder-lulu/nb-agent")
+	cli.RootCommandHelpTemplate += "\n" + t.Get("Technical discussion: Coming soon") + "\n"
 
 	return &cli.Command{
-		Name:     "panel-cli",
-		Usage:    t.Get("AcePanel CLI Tool"),
+		Name:     "nb-cli",
+		Usage:    t.Get("NewBee Agent CLI Tool"),
 		Version:  app.Version,
 		Commands: cmd.Commands(),
 	}

@@ -33,7 +33,7 @@ msgid "AcePanel"
 msgstr ""
 
 #: internal/bootstrap/cli.go:39
-msgid "AcePanel CLI Tool"
+msgid "NewBee Agent CLI Tool"
 msgstr ""
 
 #: internal/apps/mysql/app.go:124
@@ -453,7 +453,7 @@ msgid "Fileinfo is a library used to identify file types"
 msgstr ""
 
 #: internal/data/backup.go:593
-msgid "Files are normal and do not need to be repaired, please run panel-cli update to update the panel"
+msgid "Files are normal and do not need to be repaired, please run nb-cli update to update the panel"
 msgstr ""
 
 #: internal/route/cli.go:51
@@ -533,7 +533,7 @@ msgid "If you cannot access, please check whether the server's security group an
 msgstr ""
 
 #: internal/service/cli.go:187
-msgid "If you still cannot access, try running panel-cli https off to turn off panel HTTPS"
+msgid "If you still cannot access, try running nb-cli https off to turn off panel HTTPS"
 msgstr ""
 
 #: internal/apps/php/app.go:298
@@ -665,7 +665,7 @@ msgid "Move panel file failed: %v"
 msgstr ""
 
 #: internal/data/backup.go:658
-msgid "Move panel-cli file failed: %v"
+msgid "Move nb-cli file failed: %v"
 msgstr ""
 
 #: internal/apps/mysql/app.go:88
@@ -1033,7 +1033,7 @@ msgid "Temporary Tables Created on Disk"
 msgstr ""
 
 #: internal/data/backup.go:751
-msgid "Temporary file detected in /tmp, this may be caused by the last update failure, please run panel-cli fix to repair and try again"
+msgid "Temporary file detected in /tmp, this may be caused by the last update failure, please run nb-cli fix to repair and try again"
 msgstr ""
 
 #: internal/service/cert.go:64
@@ -2072,7 +2072,7 @@ msgid "|-Clean up verification file failed: %v"
 msgstr ""
 
 #: internal/data/backup.go:606
-msgid "|-Cleaned up temporary files, please run panel-cli update to update the panel"
+msgid "|-Cleaned up temporary files, please run nb-cli update to update the panel"
 msgstr ""
 
 #: internal/data/backup.go:195
@@ -2131,7 +2131,7 @@ msgid "|-Move backup file..."
 msgstr ""
 
 #: internal/data/backup.go:811
-msgid "|-Move panel-cli tool failed: %v"
+msgid "|-Move nb-cli tool failed: %v"
 msgstr ""
 
 #: internal/data/backup.go:795

@@ -184,7 +184,7 @@ func (s *CliService) Info(ctx context.Context, cmd *cli.Command) error {
 
 	fmt.Println(s.t.Get("Please choose the appropriate address to access the panel based on your network situation"))
 	fmt.Println(s.t.Get("If you cannot access, please check whether the server's security group and firewall allow port %s", port))
-	fmt.Println(s.t.Get("If you still cannot access, try running panel-cli https off to turn off panel HTTPS"))
+	fmt.Println(s.t.Get("If you still cannot access, try running nb-cli https off to turn off panel HTTPS"))
 	fmt.Println(s.t.Get("Warning: After turning off panel HTTPS, the security of the panel will be greatly reduced, please operate with caution"))
 
 	return nil

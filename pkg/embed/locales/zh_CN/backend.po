@@ -37,12 +37,12 @@ msgid "Accepted Connections"
 msgstr "已接受连接"
 
 #: internal/service/dashboard.go:58
-msgid "AcePanel"
-msgstr "AcePanel"
+msgid "NewBee Agent"
+msgstr "NewBee Agent"
 
 #: internal/bootstrap/cli.go:39
-msgid "AcePanel CLI Tool"
-msgstr "AcePanel 命令行工具"
+msgid "NewBee Agent CLI Tool"
+msgstr "NewBee Agent 命令行工具"
 
 #: internal/apps/mysql/app.go:124
 msgid "Active Connections"
@@ -461,8 +461,8 @@ msgid "Fileinfo is a library used to identify file types"
 msgstr "Fileinfo 是一个用于识别文件类型的库"
 
 #: internal/data/backup.go:593
-msgid "Files are normal and do not need to be repaired, please run panel-cli update to update the panel"
-msgstr "文件正常，无需修复，请运行 panel-cli update 更新面板"
+msgid "Files are normal and do not need to be repaired, please run nb-cli update to update the panel"
+msgstr "文件正常，无需修复，请运行 nb-cli update 更新面板"
 
 #: internal/route/cli.go:51
 msgid "Fix panel"
@@ -541,8 +541,8 @@ msgid "If you cannot access, please check whether the server's security group an
 msgstr "如果您无法访问，请检查服务器的安全组和防火墙是否放行端口 %s"
 
 #: internal/service/cli.go:187
-msgid "If you still cannot access, try running panel-cli https off to turn off panel HTTPS"
-msgstr "如果您仍然无法访问，请尝试运行 panel-cli https off 关闭面板 HTTPS"
+msgid "If you still cannot access, try running nb-cli https off to turn off panel HTTPS"
+msgstr "如果您仍然无法访问，请尝试运行 nb-cli https off 关闭面板 HTTPS"
 
 #: internal/apps/php/app.go:298
 msgid "Igbinary is a library for serializing and deserializing data"
@@ -2080,8 +2080,8 @@ msgid "|-Clean up verification file failed: %v"
 msgstr "|-清理验证文件失败：%v"
 
 #: internal/data/backup.go:606
-msgid "|-Cleaned up temporary files, please run panel-cli update to update the panel"
-msgstr "|-已清理临时文件，请运行 panel-cli update 更新面板"
+msgid "|-Cleaned up temporary files, please run nb-cli update to update the panel"
+msgstr "|-已清理临时文件，请运行 nb-cli update 更新面板"
 
 #: internal/data/backup.go:195
 msgid "|-Cleaning expired file: %s"

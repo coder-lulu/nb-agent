@@ -41,7 +41,7 @@ msgid "AcePanel"
 msgstr "AcePanel"
 
 #: internal/bootstrap/cli.go:39
-msgid "AcePanel CLI Tool"
+msgid "NewBee Agent CLI Tool"
 msgstr "AcePanel 命令列工具"
 
 #: internal/apps/mysql/app.go:124
@@ -461,8 +461,8 @@ msgid "Fileinfo is a library used to identify file types"
 msgstr "Fileinfo 是一個用於識別文件類型的庫"
 
 #: internal/data/backup.go:593
-msgid "Files are normal and do not need to be repaired, please run panel-cli update to update the panel"
-msgstr "文件正常，無需修復，請運行 panel-cli update 更新面板"
+msgid "Files are normal and do not need to be repaired, please run nb-cli update to update the panel"
+msgstr "文件正常，無需修復，請運行 nb-cli update 更新面板"
 
 #: internal/route/cli.go:51
 msgid "Fix panel"
@@ -541,8 +541,8 @@ msgid "If you cannot access, please check whether the server's security group an
 msgstr "如果您無法訪問，請檢查服務器的安全組和防火牆是否允許端口 %s"
 
 #: internal/service/cli.go:187
-msgid "If you still cannot access, try running panel-cli https off to turn off panel HTTPS"
-msgstr "如果您仍然無法訪問，請嘗試運行 panel-cli https off 關閉面板 HTTPS"
+msgid "If you still cannot access, try running nb-cli https off to turn off panel HTTPS"
+msgstr "如果您仍然無法訪問，請嘗試運行 nb-cli https off 關閉面板 HTTPS"
 
 #: internal/apps/php/app.go:298
 msgid "Igbinary is a library for serializing and deserializing data"
@@ -673,8 +673,8 @@ msgid "Move panel file failed: %v"
 msgstr "移動面板檔案失敗：%v"
 
 #: internal/data/backup.go:658
-msgid "Move panel-cli file failed: %v"
-msgstr "移動 panel-cli 檔案失敗：%v"
+msgid "Move nb-cli file failed: %v"
+msgstr "移動 nb-cli 檔案失敗：%v"
 
 #: internal/apps/mysql/app.go:88
 msgid "MySQL root password is empty"
@@ -1041,8 +1041,8 @@ msgid "Temporary Tables Created on Disk"
 msgstr "在磁碟上創建的臨時表"
 
 #: internal/data/backup.go:751
-msgid "Temporary file detected in /tmp, this may be caused by the last update failure, please run panel-cli fix to repair and try again"
-msgstr "在 /tmp 中檢測到臨時檔案，這可能是上次更新失敗導致的，請運行 panel-cli fix 進行修復並重試"
+msgid "Temporary file detected in /tmp, this may be caused by the last update failure, please run nb-cli fix to repair and try again"
+msgstr "在 /tmp 中檢測到臨時檔案，這可能是上次更新失敗導致的，請運行 nb-cli fix 進行修復並重試"
 
 #: internal/service/cert.go:64
 msgid "Tencent Cloud"
@@ -2080,8 +2080,8 @@ msgid "|-Clean up verification file failed: %v"
 msgstr "|-清理驗證文件失敗：%v"
 
 #: internal/data/backup.go:606
-msgid "|-Cleaned up temporary files, please run panel-cli update to update the panel"
-msgstr "|-已清理臨時文件，請運行 panel-cli update 更新面板"
+msgid "|-Cleaned up temporary files, please run nb-cli update to update the panel"
+msgstr "|-已清理臨時文件，請運行 nb-cli update 更新面板"
 
 #: internal/data/backup.go:195
 msgid "|-Cleaning expired file: %s"
@@ -2139,8 +2139,8 @@ msgid "|-Move backup file..."
 msgstr "|-移動備份檔案……"
 
 #: internal/data/backup.go:811
-msgid "|-Move panel-cli tool failed: %v"
-msgstr "|-移動 panel-cli 工具失敗：%v"
+msgid "|-Move nb-cli tool failed: %v"
+msgstr "|-移動 nb-cli 工具失敗：%v"
 
 #: internal/data/backup.go:795
 msgid "|-Restore panel data failed, missing file"

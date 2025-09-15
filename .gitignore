@@ -66,3 +66,11 @@ __debug_bin
 
 # 傻逼 node_modules
 node_modules/
+
+# 编译生成的二进制文件
+nb-agent
+nb-cli
+ace-agent
+ace-cli
+panel-cli
+panel-agent

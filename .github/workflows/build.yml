@@ -83,7 +83,7 @@ jobs:
           LDFLAGS="${LDFLAGS} -X 'github.com/coder-lulu/nb-agent/internal/app.BuildID=${BUILD_ID}'"
           LDFLAGS="${LDFLAGS} -X 'github.com/coder-lulu/nb-agent/internal/app.BuildUser=${BUILD_USER}'"
           LDFLAGS="${LDFLAGS} -X 'github.com/coder-lulu/nb-agent/internal/app.BuildHost=${BUILD_HOST}'"
-          go build -ldflags "${LDFLAGS}" -o nb-agent-${{ matrix.goarch }} ./cmd/ace
+          go build -ldflags "${LDFLAGS}" -o nb-agent-${{ matrix.goarch }} ./cmd/nb
           go build -ldflags "${LDFLAGS}" -o nb-cli-${{ matrix.goarch }} ./cmd/cli
       - name: Compress ${{ matrix.goarch }}
         run: |

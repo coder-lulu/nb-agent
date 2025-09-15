@@ -354,7 +354,7 @@ func (r *backupRepo) createPanel(to string) error {
 	if err = io.Cp(filepath.Join(app.Root, "panel"), temp); err != nil {
 		return err
 	}
-	if err = io.Cp("/usr/local/sbin/panel-cli", temp); err != nil {
+	if err = io.Cp("/usr/local/sbin/nb-cli", temp); err != nil {
 		return err
 	}
 	if err = io.Cp("/usr/local/etc/panel/config.yml", temp); err != nil {
@@ -590,7 +590,7 @@ func (r *backupRepo) FixPanel() error {
 		flag = true
 	}
 	if !flag {
-		return errors.New(r.t.Get("Files are normal and do not need to be repaired, please run panel-cli update to update the panel"))
+		return errors.New(r.t.Get("Files are normal and do not need to be repaired, please run nb-cli update to update the panel"))
 	}
 
 	// 再次确认是否需要修复
@@ -603,7 +603,7 @@ func (r *backupRepo) FixPanel() error {
 				return errors.New(r.t.Get("failed to clean temporary files: %v", err))
 			}
 			if app.IsCli {
-				fmt.Println(r.t.Get("|-Cleaned up temporary files, please run panel-cli update to update the panel"))
+				fmt.Println(r.t.Get("|-Cleaned up temporary files, please run nb-cli update to update the panel"))
 			}
 			return nil
 		}
@@ -654,8 +654,8 @@ func (r *backupRepo) FixPanel() error {
 		}
 	}
 	if io.Exists(filepath.Join("/tmp/panel-fix", "panel-cli")) {
-		if err = io.Mv(filepath.Join("/tmp/panel-fix", "panel-cli"), "/usr/local/sbin/panel-cli"); err != nil {
-			return errors.New(r.t.Get("Move panel-cli file failed: %v", err))
+		if err = io.Mv(filepath.Join("/tmp/panel-fix", "nb-cli"), "/usr/local/sbin/nb-cli"); err != nil {
+			return errors.New(r.t.Get("Move nb-cli file failed: %v", err))
 		}
 	}
 
@@ -689,7 +689,7 @@ func (r *backupRepo) FixPanel() error {
 	if err = io.Chmod("/etc/systemd/system/panel.service", 0644); err != nil {
 		return err
 	}
-	if err = io.Chmod("/usr/local/sbin/panel-cli", 0700); err != nil {
+	if err = io.Chmod("/usr/local/sbin/nb-cli", 0700); err != nil {
 		return err
 	}
 	if err = io.Chmod(filepath.Join(app.Root, "panel"), 0700); err != nil {
@@ -804,17 +804,17 @@ func (r *backupRepo) UpdatePanel(version, url, checksum string) error {
 	if _, err := shell.Execf(`wget -O /etc/systemd/system/panel.service https://dl.cdn.haozi.net/panel/panel.service && sed -i "s|/www|%s|g" /etc/systemd/system/panel.service`, app.Root); err != nil {
 		return errors.New(r.t.Get("|-Download panel service file failed: %v", err))
 	}
-	if _, err := shell.Execf("panel-cli setting write version %s", version); err != nil {
+	if _, err := shell.Execf("nb-cli setting write version %s", version); err != nil {
 		return errors.New(r.t.Get("|-Write new panel version failed: %v", err))
 	}
-	if err := io.Mv(filepath.Join(app.Root, "panel/cli"), "/usr/local/sbin/panel-cli"); err != nil {
-		return errors.New(r.t.Get("|-Move panel-cli tool failed: %v", err))
+	if err := io.Mv(filepath.Join(app.Root, "panel/cli"), "/usr/local/sbin/nb-cli"); err != nil {
+		return errors.New(r.t.Get("|-Move nb-cli tool failed: %v", err))
 	}
 
 	if app.IsCli {
 		fmt.Println(r.t.Get("|-Set key file permissions..."))
 	}
-	_ = io.Chmod("/usr/local/sbin/panel-cli", 0700)
+	_ = io.Chmod("/usr/local/sbin/nb-cli", 0700)
 	_ = io.Chmod("/etc/systemd/system/panel.service", 0644)
 	_ = io.Chmod(filepath.Join(app.Root, "panel"), 0700)
 
