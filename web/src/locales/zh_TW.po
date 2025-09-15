@@ -2,20 +2,20 @@ msgid ""
 msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Crowdin-Project: acepanel\n"
+"X-Crowdin-Project: nb-agent\n"
 "X-Crowdin-Project-ID: 822366\n"
 "X-Crowdin-Language: zh-TW\n"
 "X-Crowdin-File: frontend.pot\n"
 "X-Crowdin-File-ID: 1168\n"
-"Project-Id-Version: acepanel\n"
+"Project-Id-Version: nb-agent\n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
 "PO-Revision-Date: 2025-08-22 09:01\n"
 
 #: src/components/common/AppFooter.vue:13
 #: src/views/dashboard/IndexView.vue:439
-msgid "AcePanel"
-msgstr "AcePanel"
+msgid "NewBee Agent"
+msgstr "新蜂面板"
 
 #: src/components/common/AppFooter.vue:15
 msgid "All Rights Reserved."

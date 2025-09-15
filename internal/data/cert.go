@@ -13,15 +13,15 @@ import (
 	"github.com/leonelquinteros/gotext"
 	"gorm.io/gorm"
 
-	"github.com/tnborg/panel/internal/app"
-	"github.com/tnborg/panel/internal/biz"
-	"github.com/tnborg/panel/internal/http/request"
-	"github.com/tnborg/panel/pkg/acme"
-	pkgcert "github.com/tnborg/panel/pkg/cert"
-	"github.com/tnborg/panel/pkg/io"
-	"github.com/tnborg/panel/pkg/shell"
-	"github.com/tnborg/panel/pkg/systemctl"
-	"github.com/tnborg/panel/pkg/types"
+	"github.com/coder-lulu/nb-agent/internal/app"
+	"github.com/coder-lulu/nb-agent/internal/biz"
+	"github.com/coder-lulu/nb-agent/internal/http/request"
+	"github.com/coder-lulu/nb-agent/pkg/acme"
+	pkgcert "github.com/coder-lulu/nb-agent/pkg/cert"
+	"github.com/coder-lulu/nb-agent/pkg/io"
+	"github.com/coder-lulu/nb-agent/pkg/shell"
+	"github.com/coder-lulu/nb-agent/pkg/systemctl"
+	"github.com/coder-lulu/nb-agent/pkg/types"
 )
 
 type certRepo struct {

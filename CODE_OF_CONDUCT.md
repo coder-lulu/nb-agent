@@ -1,6 +1,6 @@
 ## 行为准则
 
-AcePanel 遵守业界通用的行为准则。任何违反行为准则的行为都可以报告给我们：
+NewBee Agent 遵守业界通用的行为准则。任何违反行为准则的行为都可以报告给我们：
 
 - 参与者将容忍反对意见。
 - 参与者必须确保他们的语言和行为没有人身攻击和贬低个人言论。
@@ -9,7 +9,7 @@ AcePanel 遵守业界通用的行为准则。任何违反行为准则的行为�
 
 ## Code of Conduct
 
-The AcePanel complies with the industry's common code of conduct. Any breach of the Code of Conduct can be reported to us:
+The NewBee Agent complies with the industry's common code of conduct. Any breach of the Code of Conduct can be reported to us:
 
 - Participants will be tolerant of opposing views.
 - Participants must ensure that their language and actions are free of personal attacks and disparaging personal remarks.

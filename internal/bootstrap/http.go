@@ -10,8 +10,8 @@ import (
 	"github.com/knadh/koanf/v2"
 	"github.com/leonelquinteros/gotext"
 
-	"github.com/tnborg/panel/internal/http/middleware"
-	"github.com/tnborg/panel/internal/route"
+	"github.com/coder-lulu/nb-agent/internal/http/middleware"
+	"github.com/coder-lulu/nb-agent/internal/route"
 )
 
 func NewRouter(t *gotext.Locale, middlewares *middleware.Middlewares, http *route.Http, ws *route.Ws) (*chi.Mux, error) {

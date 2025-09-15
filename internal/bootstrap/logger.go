@@ -7,7 +7,7 @@ import (
 	"github.com/knadh/koanf/v2"
 	"gopkg.in/natefinch/lumberjack.v2"
 
-	"github.com/tnborg/panel/internal/app"
+	"github.com/coder-lulu/nb-agent/internal/app"
 )
 
 func NewLog(conf *koanf.Koanf) *slog.Logger {

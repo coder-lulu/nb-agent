@@ -8,11 +8,11 @@ import (
 
 	"github.com/go-resty/resty/v2"
 
-	"github.com/tnborg/panel/internal/biz"
-	"github.com/tnborg/panel/internal/http/request"
-	"github.com/tnborg/panel/pkg/shell"
-	"github.com/tnborg/panel/pkg/types"
-	"github.com/tnborg/panel/pkg/types/docker/network"
+	"github.com/coder-lulu/nb-agent/internal/biz"
+	"github.com/coder-lulu/nb-agent/internal/http/request"
+	"github.com/coder-lulu/nb-agent/pkg/shell"
+	"github.com/coder-lulu/nb-agent/pkg/types"
+	"github.com/coder-lulu/nb-agent/pkg/types/docker/network"
 )
 
 type containerNetworkRepo struct {

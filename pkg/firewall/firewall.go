@@ -11,8 +11,8 @@ import (
 
 	"github.com/spf13/cast"
 
-	"github.com/tnborg/panel/pkg/shell"
-	"github.com/tnborg/panel/pkg/systemctl"
+	"github.com/coder-lulu/nb-agent/pkg/shell"
+	"github.com/coder-lulu/nb-agent/pkg/systemctl"
 )
 
 type Firewall struct {

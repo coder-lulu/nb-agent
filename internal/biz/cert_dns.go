@@ -3,8 +3,8 @@ package biz
 import (
 	"time"
 
-	"github.com/tnborg/panel/internal/http/request"
-	"github.com/tnborg/panel/pkg/acme"
+	"github.com/coder-lulu/nb-agent/internal/http/request"
+	"github.com/coder-lulu/nb-agent/pkg/acme"
 )
 
 type CertDNS struct {

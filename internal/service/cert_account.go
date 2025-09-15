@@ -5,8 +5,8 @@ import (
 
 	"github.com/libtnb/chix"
 
-	"github.com/tnborg/panel/internal/biz"
-	"github.com/tnborg/panel/internal/http/request"
+	"github.com/coder-lulu/nb-agent/internal/biz"
+	"github.com/coder-lulu/nb-agent/internal/http/request"
 )
 
 type CertAccountService struct {

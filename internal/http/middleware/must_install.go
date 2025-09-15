@@ -6,7 +6,7 @@ import (
 
 	"github.com/leonelquinteros/gotext"
 
-	"github.com/tnborg/panel/internal/biz"
+	"github.com/coder-lulu/nb-agent/internal/biz"
 )
 
 // MustInstall 确保已安装应用

@@ -8,7 +8,7 @@ import (
 
 func main() {
 	if os.Geteuid() != 0 {
-		panic("panel must run as root")
+		panic("NewBee Agent must run as root")
 	}
 
 	debug.SetGCPercent(10)

@@ -1,10 +1,10 @@
 version: 2
-project_name: panel
+project_name: nb-agent
 
 builds:
   - id: ace
     main: ./cmd/ace
-    binary: ace
+    binary: nb-agent
     env:
       - CGO_ENABLED=0
     goos:
@@ -14,16 +14,16 @@ builds:
       - arm64
     ldflags:
       - -s -w --extldflags "-static"
-      - -X 'github.com/tnborg/panel/internal/app.Version={{ .Version }}'
-      - -X 'github.com/tnborg/panel/internal/app.BuildTime={{ .Now.Format "2006-01-02 15:04:05 MST" }}'
-      - -X 'github.com/tnborg/panel/internal/app.CommitHash={{ .ShortCommit }}'
-      - -X 'github.com/tnborg/panel/internal/app.GoVersion={{ .Env.GOVERSION }}'
-      - -X 'github.com/tnborg/panel/internal/app.BuildID={{ .Env.GITHUB_RUN_ID }}'
-      - -X 'github.com/tnborg/panel/internal/app.BuildUser={{ .Env.USER }}'
-      - -X 'github.com/tnborg/panel/internal/app.BuildHost={{ .Env.HOSTNAME }}'
+      - -X 'github.com/coder-lulu/nb-agent/internal/app.Version={{ .Version }}'
+      - -X 'github.com/coder-lulu/nb-agent/internal/app.BuildTime={{ .Now.Format "2006-01-02 15:04:05 MST" }}'
+      - -X 'github.com/coder-lulu/nb-agent/internal/app.CommitHash={{ .ShortCommit }}'
+      - -X 'github.com/coder-lulu/nb-agent/internal/app.GoVersion={{ .Env.GOVERSION }}'
+      - -X 'github.com/coder-lulu/nb-agent/internal/app.BuildID={{ .Env.GITHUB_RUN_ID }}'
+      - -X 'github.com/coder-lulu/nb-agent/internal/app.BuildUser={{ .Env.USER }}'
+      - -X 'github.com/coder-lulu/nb-agent/internal/app.BuildHost={{ .Env.HOSTNAME }}'
   - id: cli
     main: ./cmd/cli
-    binary: cli
+    binary: nb-cli
     env:
       - CGO_ENABLED=0
     goos:
@@ -33,13 +33,13 @@ builds:
       - arm64
     ldflags:
       - -s -w --extldflags "-static"
-      - -X 'github.com/tnborg/panel/internal/app.Version={{ .Version }}'
-      - -X 'github.com/tnborg/panel/internal/app.BuildTime={{ .Now.Format "2006-01-02 15:04:05 MST" }}'
-      - -X 'github.com/tnborg/panel/internal/app.CommitHash={{ .ShortCommit }}'
-      - -X 'github.com/tnborg/panel/internal/app.GoVersion={{ .Env.GOVERSION }}'
-      - -X 'github.com/tnborg/panel/internal/app.BuildID={{ .Env.GITHUB_RUN_ID }}'
-      - -X 'github.com/tnborg/panel/internal/app.BuildUser={{ .Env.USER }}'
-      - -X 'github.com/tnborg/panel/internal/app.BuildHost={{ .Env.HOSTNAME }}'
+      - -X 'github.com/coder-lulu/nb-agent/internal/app.Version={{ .Version }}'
+      - -X 'github.com/coder-lulu/nb-agent/internal/app.BuildTime={{ .Now.Format "2006-01-02 15:04:05 MST" }}'
+      - -X 'github.com/coder-lulu/nb-agent/internal/app.CommitHash={{ .ShortCommit }}'
+      - -X 'github.com/coder-lulu/nb-agent/internal/app.GoVersion={{ .Env.GOVERSION }}'
+      - -X 'github.com/coder-lulu/nb-agent/internal/app.BuildID={{ .Env.GITHUB_RUN_ID }}'
+      - -X 'github.com/coder-lulu/nb-agent/internal/app.BuildUser={{ .Env.USER }}'
+      - -X 'github.com/coder-lulu/nb-agent/internal/app.BuildHost={{ .Env.HOSTNAME }}'
 
 upx:
   - enabled: true
@@ -56,7 +56,7 @@ upx:
     brute: false
 
 archives:
-  - id: panel
+  - id: nb-agent
     ids:
       - ace
       - cli

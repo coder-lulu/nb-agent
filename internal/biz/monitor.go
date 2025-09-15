@@ -3,8 +3,8 @@ package biz
 import (
 	"time"
 
-	"github.com/tnborg/panel/internal/http/request"
-	"github.com/tnborg/panel/pkg/types"
+	"github.com/coder-lulu/nb-agent/internal/http/request"
+	"github.com/coder-lulu/nb-agent/pkg/types"
 )
 
 type Monitor struct {

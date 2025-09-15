@@ -1,4 +1,4 @@
-module github.com/tnborg/panel
+module github.com/coder-lulu/nb-agent
 
 go 1.24.0
 

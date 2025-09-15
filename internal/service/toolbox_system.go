@@ -11,13 +11,13 @@ import (
 	"github.com/libtnb/chix"
 	"github.com/spf13/cast"
 
-	"github.com/tnborg/panel/internal/app"
-	"github.com/tnborg/panel/internal/http/request"
-	"github.com/tnborg/panel/pkg/io"
-	"github.com/tnborg/panel/pkg/ntp"
-	"github.com/tnborg/panel/pkg/shell"
-	"github.com/tnborg/panel/pkg/tools"
-	"github.com/tnborg/panel/pkg/types"
+	"github.com/coder-lulu/nb-agent/internal/app"
+	"github.com/coder-lulu/nb-agent/internal/http/request"
+	"github.com/coder-lulu/nb-agent/pkg/io"
+	"github.com/coder-lulu/nb-agent/pkg/ntp"
+	"github.com/coder-lulu/nb-agent/pkg/shell"
+	"github.com/coder-lulu/nb-agent/pkg/tools"
+	"github.com/coder-lulu/nb-agent/pkg/types"
 )
 
 type ToolboxSystemService struct {

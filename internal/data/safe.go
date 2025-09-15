@@ -6,11 +6,11 @@ import (
 
 	"github.com/spf13/cast"
 
-	"github.com/tnborg/panel/internal/biz"
-	"github.com/tnborg/panel/pkg/firewall"
-	"github.com/tnborg/panel/pkg/os"
-	"github.com/tnborg/panel/pkg/shell"
-	"github.com/tnborg/panel/pkg/systemctl"
+	"github.com/coder-lulu/nb-agent/internal/biz"
+	"github.com/coder-lulu/nb-agent/pkg/firewall"
+	"github.com/coder-lulu/nb-agent/pkg/os"
+	"github.com/coder-lulu/nb-agent/pkg/shell"
+	"github.com/coder-lulu/nb-agent/pkg/systemctl"
 )
 
 type safeRepo struct {

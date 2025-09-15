@@ -2,24 +2,24 @@
 [简体中文] | [<a href="README_EN.md">English</a>]
 </p>
 
-<p align="center"><a href="https://acepanel.net"><img src=".github/assets/logo-full.png" alt="AcePanel" width="300" /></a></p>
+<p align="center"><a href="https://github.com/coder-lulu/nb-agent"><img src=".github/assets/logo-full.png" alt="NewBee Agent" width="300" /></a></p>
 
-<p align="center">新一代全能服务器运维管理面板<br>简单轻量，高效运维</p>
+<p align="center">新一代智能服务器运维管理平台<br>简单轻量，智能高效</p>
 
 <div align="center">
 
-官网：[acepanel.net](https://acepanel.net) | QQ群：[12370907](https://jq.qq.com/?_wv=1027&k=I1oJKSTH) | 微信群：[复制此链接](https://work.weixin.qq.com/gm/d8ebf618553398d454e3378695c858b6)
+项目主页：[github.com/coder-lulu/nb-agent](https://github.com/coder-lulu/nb-agent) | 技术交流群：即将开放
 
 </div>
 
 <div align="center">
 
-[![Go](https://img.shields.io/github/go-mod/go-version/tnborg/panel)](https://go.dev/)
-[![Release](https://img.shields.io/github/release/tnborg/panel.svg)](https://github.com/tnborg/panel/releases)
-[![Test](https://github.com/tnborg/panel/actions/workflows/test.yml/badge.svg)](https://github.com/tnborg/panel/actions)
-[![Report Card](https://goreportcard.com/badge/github.com/tnborg/panel)](https://goreportcard.com/report/github.com/tnborg/panel)
-[![Stars](https://img.shields.io/github/stars/tnborg/panel?style=flat)](https://github.com/tnborg/panel)
-[![License](https://img.shields.io/github/license/tnborg/panel)](https://opensource.org/license/bsd-3-clause)
+[![Go](https://img.shields.io/github/go-mod/go-version/coder-lulu/nb-agent)](https://go.dev/)
+[![Release](https://img.shields.io/github/release/coder-lulu/nb-agent.svg)](https://github.com/coder-lulu/nb-agent/releases)
+[![Test](https://github.com/coder-lulu/nb-agent/actions/workflows/test.yml/badge.svg)](https://github.com/coder-lulu/nb-agent/actions)
+[![Report Card](https://goreportcard.com/badge/github.com/coder-lulu/nb-agent)](https://goreportcard.com/report/github.com/coder-lulu/nb-agent)
+[![Stars](https://img.shields.io/github/stars/coder-lulu/nb-agent?style=flat)](https://github.com/coder-lulu/nb-agent)
+[![License](https://img.shields.io/github/license/coder-lulu/nb-agent)](https://opensource.org/license/bsd-3-clause)
 
 </div>
 
@@ -36,10 +36,11 @@
 
 ## 快速安装
 
-支持 `amd64` | `arm64` 架构下的干净的主流系统，具体支持的系统请参考[安装文档](https://acepanel.github.io/quickstart/install)。
+支持 `amd64` | `arm64` 架构下的干净的主流系统，具体支持的系统请参考安装文档。
 
 ```shell
-curl -sSLOm 10 https://dl.cdn.haozi.net/panel/install.sh && bash install.sh
+# 安装脚本开发中，敬请期待
+# curl -sSLOm 10 https://releases.newbee-agent.com/install.sh && bash install.sh
 ```
 
 ## UI 截图
@@ -48,7 +49,7 @@ curl -sSLOm 10 https://dl.cdn.haozi.net/panel/install.sh && bash install.sh
 
 ## 合作伙伴
 
-如果 AcePanel 对您有帮助，欢迎[赞助我们](https://github.com/tnborg/panel/issues/90)，同时感谢以下支持者/赞助商的支持：
+如果 NewBee Agent 对您有帮助，欢迎Star支持项目发展：
 
 <p align="center">
   <a href="https://www.weixiaoduo.com/">
@@ -76,10 +77,10 @@ curl -sSLOm 10 https://dl.cdn.haozi.net/panel/install.sh && bash install.sh
 
 ## Star 历史
 
-<a href="https://star-history.com/#tnborg/panel&Date">
+<a href="https://star-history.com/#coder-lulu/nb-agent&Date">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=tnborg/panel&type=Date&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=tnborg/panel&type=Date" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=tnborg/panel&type=Date" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=coder-lulu/nb-agent&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=coder-lulu/nb-agent&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=coder-lulu/nb-agent&type=Date" />
  </picture>
 </a>

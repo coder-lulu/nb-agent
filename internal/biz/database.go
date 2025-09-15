@@ -1,7 +1,7 @@
 package biz
 
 import (
-	"github.com/tnborg/panel/internal/http/request"
+	"github.com/coder-lulu/nb-agent/internal/http/request"
 )
 
 type DatabaseType string

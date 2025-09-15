@@ -14,10 +14,10 @@ import (
 	"github.com/spf13/cast"
 	"gorm.io/gorm"
 
-	"github.com/tnborg/panel/internal/app"
-	"github.com/tnborg/panel/internal/biz"
-	"github.com/tnborg/panel/pkg/api"
-	"github.com/tnborg/panel/pkg/shell"
+	"github.com/coder-lulu/nb-agent/internal/app"
+	"github.com/coder-lulu/nb-agent/internal/biz"
+	"github.com/coder-lulu/nb-agent/pkg/api"
+	"github.com/coder-lulu/nb-agent/pkg/shell"
 )
 
 type appRepo struct {

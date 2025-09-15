@@ -37,10 +37,10 @@ body:
   - type: input
     id: version
     attributes:
-      label: 面板版本 (Panel Version)
+      label: 版本 (Version)
       description: |
-        请提供面板的版本号。
-        Please provide the version number of the panel.
+        请提供NewBee Agent的版本号。
+        Please provide the version number of NewBee Agent.
       placeholder: "2.4.0"
     validations:
       required: true
@@ -61,7 +61,7 @@ body:
         重现该问题的详细步骤。
         Detailed steps to reproduce the problem.
       value: |
-        1. 安装面板
+        1. 安装NewBee Agent
         2. 设置 '...'
         3. 点击 '...'
         4. 出现问题
@@ -85,8 +85,8 @@ body:
         Please copy and paste any relevant log output.
         可以把文件拖入这个区域以添加日志文件。
         Files can be dragged into this area to add log files.
-        面板日志文件可在面板目录 `storage/logs` 中找到。
-        Panel log files can be found in the panel directory `storage/logs`.
+        日志文件可在应用目录 `storage/logs` 中找到。
+        Log files can be found in the application directory `storage/logs`.
     validations:
       required: false
   - type: textarea

@@ -11,7 +11,7 @@ import (
 	"github.com/spf13/cast"
 	"gorm.io/gorm"
 
-	"github.com/tnborg/panel/internal/biz"
+	"github.com/coder-lulu/nb-agent/internal/biz"
 )
 
 type userRepo struct {

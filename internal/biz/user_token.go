@@ -7,7 +7,7 @@ import (
 	"github.com/libtnb/utils/crypt"
 	"gorm.io/gorm"
 
-	"github.com/tnborg/panel/internal/app"
+	"github.com/coder-lulu/nb-agent/internal/app"
 )
 
 type UserToken struct {

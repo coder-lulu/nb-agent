@@ -1,7 +1,7 @@
 package container
 
 import (
-	"github.com/tnborg/panel/pkg/types/docker"
+	"github.com/coder-lulu/nb-agent/pkg/types/docker"
 )
 
 // Container contains response of Engine API:

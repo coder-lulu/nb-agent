@@ -5,9 +5,9 @@ import (
 
 	"github.com/go-chi/chi/v5"
 
-	"github.com/tnborg/panel/internal/service"
-	"github.com/tnborg/panel/pkg/io"
-	"github.com/tnborg/panel/pkg/systemctl"
+	"github.com/coder-lulu/nb-agent/internal/service"
+	"github.com/coder-lulu/nb-agent/pkg/io"
+	"github.com/coder-lulu/nb-agent/pkg/systemctl"
 )
 
 type App struct{}

@@ -3,7 +3,7 @@ package systemctl
 import (
 	"time"
 
-	"github.com/tnborg/panel/pkg/shell"
+	"github.com/coder-lulu/nb-agent/pkg/shell"
 )
 
 // Status 获取服务状态

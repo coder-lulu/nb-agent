@@ -8,10 +8,10 @@ import (
 
 	"github.com/go-chi/chi/v5"
 
-	"github.com/tnborg/panel/internal/http/middleware"
-	"github.com/tnborg/panel/internal/service"
-	"github.com/tnborg/panel/pkg/apploader"
-	"github.com/tnborg/panel/pkg/embed"
+	"github.com/coder-lulu/nb-agent/internal/http/middleware"
+	"github.com/coder-lulu/nb-agent/internal/service"
+	"github.com/coder-lulu/nb-agent/pkg/apploader"
+	"github.com/coder-lulu/nb-agent/pkg/embed"
 )
 
 type Http struct {

@@ -5,7 +5,7 @@ import (
 
 	"github.com/leonelquinteros/gotext"
 
-	"github.com/tnborg/panel/internal/app"
+	"github.com/coder-lulu/nb-agent/internal/app"
 )
 
 // Status 检查程序状态

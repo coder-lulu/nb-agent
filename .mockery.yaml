@@ -6,6 +6,6 @@ outpkg: "{{.PackageName}}"
 filename: "{{.InterfaceName}}.go"
 all: True
 packages:
-  github.com/tnborg/panel/internal/biz:
+  github.com/coder-lulu/nb-agent/internal/biz:
     config:
       recursive: True

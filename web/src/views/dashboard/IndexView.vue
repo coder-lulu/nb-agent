@@ -436,7 +436,7 @@ if (import.meta.hot) {
                 />
               </n-gi>
             </n-grid>
-            <template #title>{{ $gettext('AcePanel') }}</template>
+            <template #title>{{ $gettext('NewBee Agent') }}</template>
             <template #extra>
               <n-flex>
                 <n-button type="primary" @click="toSponsor">

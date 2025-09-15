@@ -4,7 +4,7 @@ import (
 	"github.com/go-gormigrate/gormigrate/v2"
 	"gorm.io/gorm"
 
-	"github.com/tnborg/panel/internal/biz"
+	"github.com/coder-lulu/nb-agent/internal/biz"
 )
 
 func init() {

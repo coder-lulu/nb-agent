@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/tnborg/panel/pkg/shell"
+	"github.com/coder-lulu/nb-agent/pkg/shell"
 )
 
 // Remove 删除文件/目录

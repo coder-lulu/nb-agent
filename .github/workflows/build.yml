@@ -76,23 +76,23 @@ jobs:
           GOARCH: ${{ matrix.goarch }}
         run: |
           LDFLAGS="-s -w --extldflags '-static'"
-          LDFLAGS="${LDFLAGS} -X 'github.com/tnborg/panel/internal/app.Version=${VERSION}'"
-          LDFLAGS="${LDFLAGS} -X 'github.com/tnborg/panel/internal/app.BuildTime=${BUILD_TIME}'"
-          LDFLAGS="${LDFLAGS} -X 'github.com/tnborg/panel/internal/app.CommitHash=${COMMIT_HASH}'"
-          LDFLAGS="${LDFLAGS} -X 'github.com/tnborg/panel/internal/app.GoVersion=${GO_VERSION}'"
-          LDFLAGS="${LDFLAGS} -X 'github.com/tnborg/panel/internal/app.BuildID=${BUILD_ID}'"
-          LDFLAGS="${LDFLAGS} -X 'github.com/tnborg/panel/internal/app.BuildUser=${BUILD_USER}'"
-          LDFLAGS="${LDFLAGS} -X 'github.com/tnborg/panel/internal/app.BuildHost=${BUILD_HOST}'"
-          go build -ldflags "${LDFLAGS}" -o ace-${{ matrix.goarch }} ./cmd/ace
-          go build -ldflags "${LDFLAGS}" -o cli-${{ matrix.goarch }} ./cmd/cli
+          LDFLAGS="${LDFLAGS} -X 'github.com/coder-lulu/nb-agent/internal/app.Version=${VERSION}'"
+          LDFLAGS="${LDFLAGS} -X 'github.com/coder-lulu/nb-agent/internal/app.BuildTime=${BUILD_TIME}'"
+          LDFLAGS="${LDFLAGS} -X 'github.com/coder-lulu/nb-agent/internal/app.CommitHash=${COMMIT_HASH}'"
+          LDFLAGS="${LDFLAGS} -X 'github.com/coder-lulu/nb-agent/internal/app.GoVersion=${GO_VERSION}'"
+          LDFLAGS="${LDFLAGS} -X 'github.com/coder-lulu/nb-agent/internal/app.BuildID=${BUILD_ID}'"
+          LDFLAGS="${LDFLAGS} -X 'github.com/coder-lulu/nb-agent/internal/app.BuildUser=${BUILD_USER}'"
+          LDFLAGS="${LDFLAGS} -X 'github.com/coder-lulu/nb-agent/internal/app.BuildHost=${BUILD_HOST}'"
+          go build -ldflags "${LDFLAGS}" -o nb-agent-${{ matrix.goarch }} ./cmd/ace
+          go build -ldflags "${LDFLAGS}" -o nb-cli-${{ matrix.goarch }} ./cmd/cli
       - name: Compress ${{ matrix.goarch }}
         run: |
-          upx --best --lzma ace-${{ matrix.goarch }}
-          upx --best --lzma cli-${{ matrix.goarch }}
+          upx --best --lzma nb-agent-${{ matrix.goarch }}
+          upx --best --lzma nb-cli-${{ matrix.goarch }}
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
           name: backend-${{ matrix.goarch }}
           path: |
-            ace-${{ matrix.goarch }}
-            cli-${{ matrix.goarch }}
+            nb-agent-${{ matrix.goarch }}
+            nb-cli-${{ matrix.goarch }}

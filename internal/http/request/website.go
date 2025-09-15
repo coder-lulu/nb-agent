@@ -1,6 +1,6 @@
 package request
 
-import "github.com/tnborg/panel/pkg/types"
+import "github.com/coder-lulu/nb-agent/pkg/types"
 
 type WebsiteDefaultConfig struct {
 	Index string `json:"index" form:"index" validate:"required"`

@@ -2,13 +2,13 @@
   "type": "module",
   "private": true,
   "author": {
-    "name": "AcePanel",
-    "email": "admin@haozi.net",
-    "url": "https://github.com/tnborg/panel"
+    "name": "NewBee Agent",
+    "email": "admin@github.com/coder-lulu/nb-agent",
+    "url": "https://github.com/coder-lulu/nb-agent"
   },
   "license": "BSD-3-Clause",
   "repository": {
-    "url": "https://github.com/tnborg/panel"
+    "url": "https://github.com/coder-lulu/nb-agent"
   },
   "scripts": {
     "dev": "vite",

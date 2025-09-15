@@ -13,7 +13,7 @@ import (
 	"github.com/libtnb/sessions"
 	sessionmiddleware "github.com/libtnb/sessions/middleware"
 
-	"github.com/tnborg/panel/internal/biz"
+	"github.com/coder-lulu/nb-agent/internal/biz"
 )
 
 var ProviderSet = wire.NewSet(NewMiddlewares)

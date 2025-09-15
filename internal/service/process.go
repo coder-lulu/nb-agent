@@ -8,8 +8,8 @@ import (
 	"github.com/libtnb/chix"
 	"github.com/shirou/gopsutil/process"
 
-	"github.com/tnborg/panel/internal/http/request"
-	"github.com/tnborg/panel/pkg/types"
+	"github.com/coder-lulu/nb-agent/internal/http/request"
+	"github.com/coder-lulu/nb-agent/pkg/types"
 )
 
 type ProcessService struct {

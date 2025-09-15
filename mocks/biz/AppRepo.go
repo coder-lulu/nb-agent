@@ -3,8 +3,8 @@
 package biz
 
 import (
-	biz "github.com/tnborg/panel/internal/biz"
-	api "github.com/tnborg/panel/pkg/api"
+	biz "github.com/coder-lulu/nb-agent/internal/biz"
+	api "github.com/coder-lulu/nb-agent/pkg/api"
 
 	mock "github.com/stretchr/testify/mock"
 )

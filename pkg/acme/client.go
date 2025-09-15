@@ -8,7 +8,7 @@ import (
 	"github.com/mholt/acmez/v3"
 	"github.com/mholt/acmez/v3/acme"
 
-	"github.com/tnborg/panel/pkg/cert"
+	"github.com/coder-lulu/nb-agent/pkg/cert"
 )
 
 type Certificate struct {

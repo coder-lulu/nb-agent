@@ -2,24 +2,24 @@
 [<a href="README.md">简体中文</a>] | [English]
 </p>
 
-<p align="center"><a href="https://acepanel.net"><img src=".github/assets/logo-full.png" alt="AcePanel" width="300" /></a></p>
+<p align="center"><a href="https://github.com/coder-lulu/nb-agent"><img src=".github/assets/logo-full.png" alt="NewBee Agent" width="300" /></a></p>
 
-<p align="center">New generation of all-in-one server operation and maintenance management panel<br>Simple and lightweight, efficient operation and maintenance</p>
+<p align="center">Next-generation intelligent server operation and maintenance management platform<br>Simple, lightweight, and intelligent</p>
 
 <div align="center">
 
-Website: [acepanel.net](https://acepanel.net) | QQ group: [12370907](https://jq.qq.com/?_wv=1027&k=I1oJKSTH) | WeChat group: [Copy this link](https://work.weixin.qq.com/gm/d8ebf618553398d454e3378695c858b6)
+Project homepage: [github.com/coder-lulu/nb-agent](https://github.com/coder-lulu/nb-agent) | Technical discussion group: Coming soon
 
 </div>
 
 <div align="center">
 
-[![Go](https://img.shields.io/github/go-mod/go-version/tnborg/panel)](https://go.dev/)
-[![Release](https://img.shields.io/github/release/tnborg/panel.svg)](https://github.com/tnborg/panel/releases)
-[![Test](https://github.com/tnborg/panel/actions/workflows/test.yml/badge.svg)](https://github.com/tnborg/panel/actions)
-[![Report Card](https://goreportcard.com/badge/github.com/tnborg/panel)](https://goreportcard.com/report/github.com/tnborg/panel)
-[![Stars](https://img.shields.io/github/stars/tnborg/panel?style=flat)](https://github.com/tnborg/panel)
-[![License](https://img.shields.io/github/license/tnborg/panel)](https://opensource.org/license/bsd-3-clause)
+[![Go](https://img.shields.io/github/go-mod/go-version/coder-lulu/nb-agent)](https://go.dev/)
+[![Release](https://img.shields.io/github/release/coder-lulu/nb-agent.svg)](https://github.com/coder-lulu/nb-agent/releases)
+[![Test](https://github.com/coder-lulu/nb-agent/actions/workflows/test.yml/badge.svg)](https://github.com/coder-lulu/nb-agent/actions)
+[![Report Card](https://goreportcard.com/badge/github.com/coder-lulu/nb-agent)](https://goreportcard.com/report/github.com/coder-lulu/nb-agent)
+[![Stars](https://img.shields.io/github/stars/coder-lulu/nb-agent?style=flat)](https://github.com/coder-lulu/nb-agent)
+[![License](https://img.shields.io/github/license/coder-lulu/nb-agent)](https://opensource.org/license/bsd-3-clause)
 
 </div>
 

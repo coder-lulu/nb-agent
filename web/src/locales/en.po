@@ -10,8 +10,8 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: src/components/common/AppFooter.vue:13 src/views/dashboard/IndexView.vue:439
-msgid "AcePanel"
-msgstr "AcePanel"
+msgid "NewBee Agent"
+msgstr "NewBee Agent"
 
 #: src/components/common/AppFooter.vue:15
 msgid "All Rights Reserved."

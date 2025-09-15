@@ -13,7 +13,7 @@ import (
 	"github.com/libtnb/sessions"
 	"github.com/spf13/cast"
 
-	"github.com/tnborg/panel/internal/biz"
+	"github.com/coder-lulu/nb-agent/internal/biz"
 )
 
 // MustLogin 确保已登录

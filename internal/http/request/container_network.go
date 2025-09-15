@@ -1,6 +1,6 @@
 package request
 
-import "github.com/tnborg/panel/pkg/types"
+import "github.com/coder-lulu/nb-agent/pkg/types"
 
 type ContainerNetworkID struct {
 	ID string `json:"id" form:"id" validate:"required"`

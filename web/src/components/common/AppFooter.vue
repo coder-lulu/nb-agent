@@ -9,8 +9,8 @@ const year = new Date().getFullYear()
   <footer color="#6a6a6a" f-c-c flex-col text-14>
     <p>
       © 2022 - {{ year }}
-      <a hover="decoration-primary color-primary" target="__blank" href="https://acepanel.net/">
-        {{ $gettext('AcePanel') }}
+      <a hover="decoration-primary color-primary" target="__blank" href="https://github.com/coder-lulu/nb-agent">
+        {{ $gettext('NewBee Agent') }}
       </a>
       {{ $gettext('All Rights Reserved.') }}
     </p>
@@ -26,7 +26,7 @@ const year = new Date().getFullYear()
       <a
         hover="decoration-primary color-primary"
         target="_blank"
-        href="https://acepanel.net/docs"
+        href="https://github.com/coder-lulu/nb-agent"
       >
         {{ $gettext('Documentation') }}
       </a>

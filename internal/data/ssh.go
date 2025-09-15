@@ -7,9 +7,9 @@ import (
 	"github.com/leonelquinteros/gotext"
 	"gorm.io/gorm"
 
-	"github.com/tnborg/panel/internal/biz"
-	"github.com/tnborg/panel/internal/http/request"
-	pkgssh "github.com/tnborg/panel/pkg/ssh"
+	"github.com/coder-lulu/nb-agent/internal/biz"
+	"github.com/coder-lulu/nb-agent/internal/http/request"
+	pkgssh "github.com/coder-lulu/nb-agent/pkg/ssh"
 )
 
 type sshRepo struct {

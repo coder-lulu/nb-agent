@@ -1,6 +1,6 @@
 package request
 
-import "github.com/tnborg/panel/pkg/types"
+import "github.com/coder-lulu/nb-agent/pkg/types"
 
 type ContainerComposeGet struct {
 	Name string `uri:"name" validate:"required|regex:^[a-zA-Z0-9_-]+$"`

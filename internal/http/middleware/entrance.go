@@ -11,7 +11,7 @@ import (
 	"github.com/leonelquinteros/gotext"
 	"github.com/libtnb/chix"
 	"github.com/libtnb/sessions"
-	"github.com/tnborg/panel/pkg/punycode"
+	"github.com/coder-lulu/nb-agent/pkg/punycode"
 )
 
 // Entrance 确保通过正确的入口访问

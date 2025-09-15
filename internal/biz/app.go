@@ -3,7 +3,7 @@ package biz
 import (
 	"time"
 
-	"github.com/tnborg/panel/pkg/api"
+	"github.com/coder-lulu/nb-agent/pkg/api"
 )
 
 type App struct {

@@ -5,14 +5,14 @@ package main
 import (
 	"github.com/google/wire"
 
-	"github.com/tnborg/panel/internal/app"
-	"github.com/tnborg/panel/internal/apps"
-	"github.com/tnborg/panel/internal/bootstrap"
-	"github.com/tnborg/panel/internal/data"
-	"github.com/tnborg/panel/internal/http/middleware"
-	"github.com/tnborg/panel/internal/job"
-	"github.com/tnborg/panel/internal/route"
-	"github.com/tnborg/panel/internal/service"
+	"github.com/coder-lulu/nb-agent/internal/app"
+	"github.com/coder-lulu/nb-agent/internal/apps"
+	"github.com/coder-lulu/nb-agent/internal/bootstrap"
+	"github.com/coder-lulu/nb-agent/internal/data"
+	"github.com/coder-lulu/nb-agent/internal/http/middleware"
+	"github.com/coder-lulu/nb-agent/internal/job"
+	"github.com/coder-lulu/nb-agent/internal/route"
+	"github.com/coder-lulu/nb-agent/internal/service"
 )
 
 // initWeb init application.
