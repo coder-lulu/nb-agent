@@ -1,0 +1,60 @@
+# 智能解释器管理系统配置文件
+
+# 默认解释器类型
+default_interpreter: bash
+
+# 启用自动检测
+enable_auto_detection: true
+
+# 刷新间隔（检测解释器可用性）
+refresh_interval: 5m
+
+# 缓存过期时间
+cache_expiry: 30m
+
+# 回退顺序（优先级从高到低）
+fallback_order:
+  - bash
+  - sh
+  - dash
+  - zsh
+  - ash
+
+# 自定义解释器路径（可选）
+interpreter_paths:
+  bash: /bin/bash
+  zsh: /usr/bin/zsh
+  fish: /usr/bin/fish
+  sh: /bin/sh
+  dash: /bin/dash
+  ash: /bin/ash
+  csh: /bin/csh
+  tcsh: /bin/tcsh
+  ksh: /bin/ksh
+
+# 功能需求映射
+feature_requirements:
+  # 需要数组支持的命令
+  arrays:
+    - array_support
+  # 需要高级globbing的命令
+  advanced_globbing:
+    - advanced_globbing
+  # 需要进程替换的命令
+  process_substitution:
+    - process_substitution
+
+# 执行超时设置
+execution_timeout: 30s
+
+# 最大并发执行数
+max_concurrent_executions: 10
+
+# 服务级别配置
+service:
+  # 启用验证
+  enable_validation: true
+  # 启用统计
+  enable_statistics: true
+  # 启用缓存
+  enable_caching: true
